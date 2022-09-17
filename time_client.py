@@ -1,6 +1,6 @@
 """client program which displays the server machine's date and time on the client machine."""
 
-import socket
+import socket 
 
 # create a socket object
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
